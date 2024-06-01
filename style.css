@@ -1,7 +1,7 @@
 body {
             font-family: Arial, sans-serif;
-            background-color: #fffbbd;
-            color: #31493c;
+            background-color: #444444;
+            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -12,10 +12,10 @@ body {
             text-align: center;
         }
         h1 {
-            color: #ac46b5;
+            color: #FFFFFF;
         }
         p {
-            color: #ca3c25;
+            color: #FFFFFF;
         }
         .buttons {
             margin-top: 20px;
@@ -23,13 +23,15 @@ body {
         .buttons a {
             display: inline-block;
             text-decoration: none;
-            color: #ca3c25;
-            background-color: #732c2c;
+            color: #fff;
+            background-color: #771CA8;
             padding: 10px 20px;
             margin: 10px;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
         .buttons a:hover {
-            background-color: #732c2c;
+            background-color: #8800cc;
+            transform: translateY(-5px);
         }
