@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasagne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #ff0000, #ffffff);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #d35400;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul, ol {
+            margin: 20px 0;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lasagne</h1>
+        <img src="https://www.example.com/lasagne.jpg" alt="Lasagne">
+        <h2>Ingredienti</h2>
+        <ul>
+            <li>250g di sfoglia per lasagne</li>
+            <li>500g di ragù di carne</li>
+            <li>400g di besciamella</li>
+            <li>200g di mozzarella</li>
+            <li>100g di parmigiano grattugiato</li>
+            <li>Sale q.b.</li>
+            <li>Olio d'oliva q.b.</li>
+        </ul>
+        <h2>Procedimento</h2>
+        <ol>
+            <li>Prepara il ragù di carne secondo la tua ricetta preferita.</li>
+            <li>Prepara la besciamella o utilizza quella già pronta.</li>
+            <li>Preriscalda il forno a 180°C.</li>
+            <li>In una teglia, versa un po' di ragù sul fondo e copri con uno strato di sfoglia per lasagne.</li>
+            <li>Aggiungi uno strato di ragù, un po' di besciamella, mozzarella a fette e una spolverata di parmigiano.</li>
+            <li>Continua a stratificare fino ad esaurimento degli ingredienti, terminando con besciamella, mozzarella e parmigiano.</li>
+            <li>Copri la teglia con un foglio di alluminio e cuoci in forno per 25 minuti.</li>
+            <li>Rimuovi l'alluminio e cuoci per altri 15 minuti o fino a quando la superficie è dorata e croccante.</li>
+            <li>Lascia riposare per 10 minuti prima di servire.</li>
+        </ol>
+    </div>
+</body>
+</html>
